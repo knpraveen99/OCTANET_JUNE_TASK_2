@@ -1,0 +1,63 @@
+body {
+    background: #c09494; /* Light grey background */
+    background: -webkit-linear-gradient(to right, #e0e0e0, #b0c4de); /* Gradient from light grey to light steel blue */
+    background: linear-gradient(to right, #e0e0e0, #b0c4de); /* Standard gradient syntax */
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.app-container {
+    background: #469ae3; /* Alice blue background */
+    background: -webkit-linear-gradient(to right, #f0f8ff, #faebd7); /* Gradient from Alice blue to antique white */
+    background: linear-gradient(to right, #f0f8ff, #faebd7); /* Standard gradient syntax */
+}
+
+.hide-scrollbar::-webkit-scrollbar {
+    display: none;
+}
+
+.task-icons {
+    margin-left: auto;
+}
+
+.task-icons > span {
+    margin-right: 3mm;
+}
+
+.completed-task {
+    text-decoration: line-through;
+}
+
+.unchecked-checkbox {
+    color: #369e66; /* Tomato color */
+}
+
+.checked-checkbox {
+    color: #811347; /* Lime green */
+}
+
+.task-item {
+    display: flex;
+    align-items: center;
+}
+
+.task-text {
+    margin-left: -2mm;
+}
+
+.checkbox-circle {
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    margin-right: 6mm;
+    border-radius: 50%;
+    padding: 2px;
+}
+
+#input, #add {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.checked-text {
+    color: #4682b4; /* Steel blue */
+    font-style: italic;
+}
